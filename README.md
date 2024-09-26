@@ -100,6 +100,14 @@ php_value[date.timezone] = America/Sao_Paulo
 # systemctl start zabbix-server zabbix-agent httpd php-fpm
 # systemctl status zabbix-server.service
 ```
+
+## Interface Web
+- Vamos acessar a nossa interface:
+```
+http://<ip_servidor>/zabbix
+```
+- Terminar a configuração conforme o solicitado e apertar em Finish
+
 # Referências
 
 📕Monitoramento com Zabbix
